@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { HeroBanner } from '../components';
+import { Product, HeroBanner } from '../components';
 
-const Home = ({ bannerData }) => {
+const Home = ({ products, bannerData }) => {
     return (
         <>
             <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
@@ -11,6 +11,10 @@ const Home = ({ bannerData }) => {
             <div className="products-heading">
                 <h2>Best Selling Products</h2>
                 <p>Speakers of many variations</p>
+            </div>
+
+            <div className="products-container">
+                {products?.map((product) => <Product key={product._id} product={product} />)}
             </div>
 
         </>
