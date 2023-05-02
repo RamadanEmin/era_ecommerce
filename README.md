@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ERA_ecommerce
 
-## Getting Started
+You can view the site here
+[Click Me](https://era-ecommerce.vercel.app/)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## :books: Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [About](#raised_hands-about)
+- [Technologies used](#gear-technologies-used)
+- [Features](#pushpin-features)
+- [Before you start](#before-you-start)
+- [Author](#star-author)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :raised_hands: About
+ - A fully responsive Modern Full Stack Commerce application with Payments functionality. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This Application uses sanity which allows us to focus on developing the application without having to worry about the content, file storage, and databases. They’ll cover the dirty work for us and allow us to build scalable and modern e-commerce web applications extremely easily.
+   
+## :gear: Technologies used
+- ReactJS
+- Next JS
+- Sanity
+- Stripe
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :pushpin: Features
+<ul>
+  <li>Home page</li>
+  <li>Product details page</li>
+  <li>Payment page</li>
+  <li>Success page</li>
+</ul>
 
-## Learn More
+## Before you start
+1. Make sure **Git** and **NodeJS** is installed
+2. Create .env file in root folder.
+3. Contents of **.env**
+4. Now go to [Sanity](https://sanity.io) and create an account.
+5. Go to [Stripe](https://stripe.com) and create an account.
+6. After enabling you can get your API Keys and paste them in `.env` file in `NEXT_PUBLIC_SANITY_TOKEN`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` and `NEXT_PUBLIC_STRIPE_SECRET_KEY`.
+**NOTE:** Make sure you don't share these keys publicaly.
 
-To learn more about Next.js, take a look at the following resources:
+How to use this App?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone this **repository** to your local computer.
+2. Open **terminal** in root directory.
+3. Type and Run `npm install` or `yarn install`.
+4. Once packages are installed, you can start this app using `npm run dev`.
+5. Now app is fully configured and you can start using this app :+1:.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :star: Author
 
-## Deploy on Vercel
+Ramadan Emin
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="/images/pic1.png"  width= 800px height= 350px>
+<img src="/images/pic2.png"  width= 800px height= 425px>
+<img src="/images/pic3.png"  width= 800px height= 375px>
+<img src="/images/pic4.png"  width= 800px height= 650px>
+<img src="/images/pic5.png"  width= 800px height= 390px>
+<img src="/images/pic6.png"  width= 250px height= 570px>
+<img src="/images/pic7.png"  width= 250px height= 385px>
